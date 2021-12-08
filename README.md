@@ -2,11 +2,11 @@
 
 _Aquest és un projecte de test usant [Mkdocs](https://www.mkdocs.org/)_   
 
-https://abrobia.github.io/my_mkdocs_project_3  
+El projecte està accessible a: https://abrobia.github.io/my_mkdocs_project_3  
 
 ## Instal·lació Mkdocs
 
-Instal·lem Mkdocs al nostre ordinador
+Instal·lem Mkdocs al nostre ordinador.
 
 ```
 $ pip install mkdocs
@@ -14,7 +14,7 @@ $ pip install mkdocs
 
 ## Creació inicial del projecte
 
-Creem una carpeta on incloure els arxius del projecte. En aquest cas el projecte s'anomena "my_mkdocs_project_3"
+Creem una carpeta on incloure els arxius del projecte. En aquest cas el projecte s'anomena "my_mkdocs_project_3".
 
 ```
 $ mkdocs new my_mkdocs_project_3
@@ -23,17 +23,19 @@ $ cd my_mkdocs_project_3
 
 ## Inicialització del servidor virtual
 
+Iniciem el servidor Mkdocs a partir de la següent comanda:
+
 ```
 $ mkdocs serve
 ```
 
-I obrim http://127.0.0.1:8000 per veure el nostre projecte local des del navegador  
+I obrim http://127.0.0.1:8000 per veure el nostre projecte local des del navegador.    
 
 ## Configuració del projecte
 
 Creem les pàgines .md de contingut
 
-Escollim un theme: material  
+Escollim un [theme](https://www.mkdocs.org/user-guide/choosing-your-theme/)  
 
 ## Publicació de la web amb GitHub pages
 
@@ -65,7 +67,9 @@ $ git push -u origin main
 
 $ mkdocs gh-deploy
 
-```
+```  
+
+I si tot ha anat bé, la consola mostrarà el següent missatge final:
 
 _Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/
 
