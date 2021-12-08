@@ -1,6 +1,6 @@
 # my_mkdocs_project_3
 
-_Aquest és un projecte de test usant Mkdocs: https://abrobia.github.io/my_mkdocs_project_3  
+_Aquest és un projecte de test usant Mkdocs:_ https://abrobia.github.io/my_mkdocs_project_3  
 
 ## Instalació Mkdocs
 
@@ -64,5 +64,5 @@ $ mkdocs gh-deploy
 
 ```
 
-_Your documentation should shortly be available at: https://abrobia.github.io/my_mkdocs_project_3/
+_Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/
 
