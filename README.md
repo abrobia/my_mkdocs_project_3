@@ -4,7 +4,7 @@ _Aquest és un projecte de test usant [Mkdocs](https://www.mkdocs.org/)_
 
 https://abrobia.github.io/my_mkdocs_project_3  
 
-## Instalació Mkdocs
+## Instal·lació Mkdocs
 
 Instal·lem Mkdocs al nostre ordinador
 
