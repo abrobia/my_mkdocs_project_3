@@ -1,6 +1,6 @@
 # my_mkdocs_project_3
 
-_Aquest és un projecte de test usant [Mkdocs](https://www.mkdocs.org/)_   
+Aquest és un projecte de test usant [Mkdocs](https://www.mkdocs.org/)     
 
 El projecte està accessible a: https://abrobia.github.io/my_mkdocs_project_3  
 
@@ -69,7 +69,6 @@ $ mkdocs gh-deploy
 
 ```  
 
-I si tot ha anat bé, la consola mostrarà el següent missatge final:
+Si tot ha anat bé, la consola mostrarà el següent missatge:
 
 _Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/
-
