@@ -42,13 +42,13 @@ Escollim un [theme](https://www.mkdocs.org/user-guide/choosing-your-theme/)
 Creem un repo buit a GitHub per hostetjar el nostre projecte. Es recomana que el nom del repositori sigui igual al nom de projecte al nostre ordinador. 
 Aquí és on pujarem el nostre projecte emmagatzemat a l'ordinador fent servir Git.  
 
-Mitjançant el terminal, ens situem dins de la carpeta del projecte local ("my_mkdocs_project_3") que conté els arxius que pujarem i a continuació executem:
+Mitjançant el terminal, ens situem dins de la carpeta local ("my_mkdocs_project_3") que conté els arxius que pujarem i a continuació executem:
 
 ```
 $ python -m mkdocs build
 ```
 
-Inicialitzem el nostre repositori local i fem el nostre primer commit amb les següents ordres:
+Inicialitzem el repositori local i fem el nostre primer commit amb les següents ordres:
 
 ```
 $ git init
@@ -71,4 +71,22 @@ $ mkdocs gh-deploy
 
 Si tot ha anat bé, la consola mostrarà el següent missatge:
 
-_Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/
+_Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/  
+
+## Actualització del projecte
+
+Si es volen fer canvis en el projecte:
+
+* Creem una nova branch i la clonem des del nostre ordinador (usem SourceTree)
+* Fem els canvis que vulguem des de l'editor (usem Visual Studio Code)
+* Pujem els canvis a partir de les següents ordres:   
+```
+$ git add commit "NOM_DEL_COMMIT"
+$ git push -u origin update
+$ mkdocs gh-deploy
+```  
+De nou, si tot ha anat bé, la consola mostrarà el següent missatge:
+
+_Your documentation should shortly be available at:_ https://abrobia.github.io/my_mkdocs_project_3/  
+
+
