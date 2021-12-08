@@ -1,10 +1,12 @@
 # my_mkdocs_project_3
 
-_Aquest és un projecte de test usant Mkdocs:_ https://abrobia.github.io/my_mkdocs_project_3  
+_Aquest és un projecte de test usant [Mkdocs](https://www.mkdocs.org/)_   
+
+https://abrobia.github.io/my_mkdocs_project_3  
 
 ## Instalació Mkdocs
 
-Instal·lem Mkdocs a la nostra màquina
+Instal·lem Mkdocs al nostre ordinador
 
 ```
 $ pip install mkdocs
@@ -17,7 +19,7 @@ Creem una carpeta on incloure els arxius del projecte. En aquest cas el projecte
 ```
 $ mkdocs new my_mkdocs_project_3
 $ cd my_mkdocs_project_3
-```
+```  
 
 ## Inicialització del servidor virtual
 
@@ -31,11 +33,12 @@ I obrim http://127.0.0.1:8000 per veure el nostre projecte local des del navegad
 
 Creem les pàgines .md de contingut
 
-Escollim un theme: material    
+Escollim un theme: material  
 
 ## Publicació de la web amb GitHub pages
 
-Creem un repo buit a GitHub per hostetjar al nostre projecte. Es recomana que el nom del repositori sigui igual al nom de projecte al nostre ordinador. Aquí és on pujarem el nostre projecte emmagatzemat a l'ordinador fent servir Git.  
+Creem un repo buit a GitHub per hostetjar el nostre projecte. Es recomana que el nom del repositori sigui igual al nom de projecte al nostre ordinador. 
+Aquí és on pujarem el nostre projecte emmagatzemat a l'ordinador fent servir Git.  
 
 Mitjançant el terminal, ens situem dins de la carpeta del projecte local ("my_mkdocs_project_3") que conté els arxius que pujarem i a continuació executem:
 
